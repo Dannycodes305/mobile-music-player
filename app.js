@@ -11,7 +11,7 @@ const cover = document.querySelector('#cover')
 
 //song titles
 
-const songs = ['Alta Gama','Pepas','Guaracha Mix' ]
+const songs = ['Alta Gama','Pepas','Guaracha mix' ]
 
 //Kepp track of songs
 let songIndex = 2
