@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+        
+    }
+    body{
+        height: 100vh;
+        background: #131313;
+        margin: 0;
+    }
+
+
+.main__container{
+    background: #131313;
+    height: 100vh;
+    padding: auto;
+    margin-top:200px;
+    
+    
+    
+
+}
+
+.player__container{
+    display: flex;
+    width: 100%;
+    max-width: 350Px;
+    height: 525px;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: relative;
+    margin:0 auto;
+    padding: 100px 50px;
+    margin-top: 25px;
+    box-shadow: 2px 2px 8px 0 rgb(207, 205, 205) ;
+    background: rgb(88, 88, 88);
+
+}
+
+.player__artwork img{
+    width: 200px;
+    height: 200px;
+    border:1px solid white;
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 75px;
+    border-radius: 4px;
+}
+.player__info{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 75px;
+    top: 150px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.progress__container{
+    cursor: pointer;
+    height: 4px;
+    width: 100%;
+    background: white;
+    margin: 25px 0;
+    border-radius: 50px;
+    
+   
+    
+}
+.progress{
+    background: rgb(14, 133, 237);
+    border-radius: 50px;
+    width: 50%;
+    height: 0%;
+    transition: width 0.1s linear;
+}
+.control__btn{
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 5px;
+
+}
+
+#song--title{
+    color: white;
+    font-size: 1.2rem;
+}
